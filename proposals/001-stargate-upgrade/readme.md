@@ -4,6 +4,7 @@
 1. The Impact Hub validators commit to upgrade the network using the ixo-blockchain software version `impacthub-v1.6.0`, which implements Stargate.
 2. The Impact Hub genesis prameters will be updated with the following critical changes:
   - Chain Name `impacthub-3`
+    - `chain_id` value will be set to `impacthub-3`
   - Maximum validator set: `50`
     - Under `staking` module, `params.max_validators` will be set to `50`
   - Inflation `20%`
