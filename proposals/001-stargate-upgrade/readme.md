@@ -4,8 +4,13 @@
 1. The Impact Hub validators commit to upgrade the network using the ixo-blockchain software version `impacthub-v1.6.0`, which implements Stargate.
 2. The Impact Hub genesis prameters will be updated with the following critical changes:
   - Chain Name `impacthub-3`
-  - Maximum validator set `50`
+  - Maximum validator set: `50`
+    - Under `staking` module, `params.max_validators` will be set to `50`
   - Inflation `20%`
+    - Under `mint` module, `minter.inflation` will be set to `0.200000000000000000` (**TO BE CONFIRMED**)
+    - Under `mint` module, `params.inflation_max` will be set to `0.200000000000000000`
+    - Under `mint` module, `params.inflation_min` will be set to `0.070000000000000000`
+    - Under `mint` module, `params.inflation_rate_change` will be set to `0.130000000000000000`
 3. Account balance migrations will be performed to move balances from DID-Accounts to Cosmos-Accounts, for transfers which have been approved by account-holders signing claims with their DID Account credentials.
 4. Account transfers from balances held by ixo.world AG in non-vesting accounts, to new vesting accounts held by third-parties. 
 
