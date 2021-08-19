@@ -9,10 +9,9 @@
     - Under `staking` module, `params.max_validators` will be set to `50`
 3. No change in Inflation
   - Inflation remains at `0%` with a change in inflation delayed to a future governance vote
-    - Under `mint` module, `minter.inflation` will be set to `0.000000000000000000`
-    - Under `mint` module, `params.inflation_max` will be set to `0.000000000000000000`
-    - Under `mint` module, `params.inflation_min` will be set to `0.000000000000000000`
-    - Under `mint` module, `params.inflation_rate_change` will be set to `0.000000000000000000`
+    - Under `mint` module, `params.inflation_max` will be left at `0.000000000000000000`
+    - Under `mint` module, `params.inflation_min` will be left at `0.000000000000000000`
+    - Under `mint` module, `params.inflation_rate_change` will be left at `0.000000000000000000`
 
 ## 2. Updated Software Features in v1.6.0
 This is a major upgrade which includes all Cosmos Stargate features.
