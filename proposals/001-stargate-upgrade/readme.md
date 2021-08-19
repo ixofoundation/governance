@@ -59,7 +59,7 @@ The git commit of [impacthub v1.6.0](https://github.com/ixofoundation/ixo-blockc
 ### For Node Operators:
 This software upgrade is compulsory, if approved by governance.
 
-[This upgrade guide](https://github.com/ixofoundation/genesis/tree/impacthub-3/impacthub-3) provides further instructions.
+[This upgrade guide](https://github.com/ixofoundation/genesis/blob/impacthub-3/impacthub-3/README_UPGRADE.md) provides further instructions.
 
 ### For Application Developers:
 This mainnet upgrade includes the legacy REST interfaces, so developers do not necessarily need to migrate the on-chain node interface for applications.
