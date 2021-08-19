@@ -2,18 +2,17 @@
 
 ## 1. Key Results
 1. The Impact Hub validators commit to upgrade the network using the ixo-blockchain software version `impacthub-v1.6.0`, which implements Stargate.
-2. The Impact Hub genesis prameters will be updated with the following critical changes:
+2. The Impact Hub genesis parameters will be updated with the following critical changes:
   - Chain Name `impacthub-3`
     - `chain_id` value will be set to `impacthub-3`
   - Maximum validator set: `50`
     - Under `staking` module, `params.max_validators` will be set to `50`
-  - Inflation `20%`
-    - Under `mint` module, `minter.inflation` will be set to `0.200000000000000000` (**TO BE CONFIRMED**)
-    - Under `mint` module, `params.inflation_max` will be set to `0.200000000000000000`
-    - Under `mint` module, `params.inflation_min` will be set to `0.070000000000000000`
-    - Under `mint` module, `params.inflation_rate_change` will be set to `0.130000000000000000`
-3. Account balance migrations will be performed to move balances from DID-Accounts to Cosmos-Accounts, for transfers which have been approved by account-holders signing claims with their DID Account credentials.
-4. Account transfers from balances held by ixo.world AG in non-vesting accounts, to new vesting accounts held by third-parties. 
+3. No change in Inflation
+  - Inflation remains at `0%` with a change in inflation delayed to a future governance vote
+    - Under `mint` module, `minter.inflation` will be set to `0.000000000000000000`
+    - Under `mint` module, `params.inflation_max` will be set to `0.000000000000000000`
+    - Under `mint` module, `params.inflation_min` will be set to `0.000000000000000000`
+    - Under `mint` module, `params.inflation_rate_change` will be set to `0.000000000000000000`
 
 ## 2. Updated Software Features in v1.6.0
 This is a major upgrade which includes all Cosmos Stargate features.
@@ -43,11 +42,13 @@ This is a major upgrade which includes all Cosmos Stargate features.
 - Added a swagger.yaml file with gRPC endpoints for ixo modules (bonds, did, payments, project) (#242)
 
 ## 3. Upgrade Method and Plan
-This upgrade will be conducted manually by coordination betweeen the validators. 
+This upgrade will be conducted manually by coordination between the validators. 
 
 ## Upgrade Time
 
 The mainnet upgrade is expected to take place on 2021 August 19 at 12:00 UTC.
+- Epoch time: 1629331200
+- Block height: 2281750
 
 ## Git Commit
 
