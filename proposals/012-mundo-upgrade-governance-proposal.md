@@ -27,7 +27,7 @@ When the network reaches the halt block height, the state machine stops producin
 
 Upgrading requires all validators and node operators to manually substitute the existing state machine binary with the new binary. Validators are advised to use Cosmovisor to swap the binaries automatically. Instructions to migrate to use Cosmovisor: [https://docs.cosmos.network/main/tooling/cosmovisor](https://docs.cosmos.network/main/tooling/cosmovisor)
 
-Instructions to prepare the v0.19.x binary can be found at [https://github.com/ixofoundation/genesis/tree/main/ixo-4](https://github.com/ixofoundation/genesis/tree/main/ixo-4) and the chain release is available at [https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.0](https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.0)
+Instructions to prepare the v0.19.x binary can be found at [https://github.com/ixofoundation/genesis/tree/main/ixo-4](https://github.com/ixofoundation/genesis/tree/main/ixo-4) and the chain release is available at [https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.x](https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.x)
 
 ## Impacts
 
