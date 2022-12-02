@@ -27,7 +27,7 @@ When the network reaches the halt block height, the state machine stops producin
 
 Upgrading requires all validators and node operators to manually substitute the existing state machine binary with the new binary. Validators are advised to use Cosmovisor to swap the binaries automatically. Instructions to migrate to use Cosmovisor: [https://docs.cosmos.network/main/tooling/cosmovisor](https://docs.cosmos.network/main/tooling/cosmovisor)
 
-Instructions to prepare the v0.19.x binary can be found at [https://github.com/ixofoundation/genesis/tree/main/ixo-4](https://github.com/ixofoundation/genesis/tree/main/ixo-4) and the chain release is available at [https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.x](https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.x)
+Instructions to prepare the v0.19.x binary can be found at [https://github.com/ixofoundation/genesis/tree/main/ixo-4](https://github.com/ixofoundation/genesis/tree/ixo-4) and the chain release is available at [https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19](https://github.com/ixofoundation/ixo-blockchain/releases/tag/v0.19.0)
 
 ## Impacts
 
@@ -36,7 +36,7 @@ Instructions to prepare the v0.19.x binary can be found at [https://github.com/i
 
 ## Risks
 
-Although extensive testing and simulations have been performed this upgrade could experience problems that are introduced by unknown bugs or errors not yet identified, or that appear in the context of a full network upgrade. If serious network problems are encountered, all validators must stop operating the network immediately. Core Contributors will coordinate through the `#validators`channel of the [ixo Network Discord]([https://discord.com/channels/745033220596301995/1001820078695796807](https://discord.com/channels/745033220596301995/1001820078695796807)) a contingency plan to either replace the upgrade with a new binary that includes code fixes, or abort the upgrade and revert back to the previous release of v0.16.2.
+Although extensive testing and simulations have been performed this upgrade could experience problems that are introduced by unknown bugs or errors not yet identified, or that appear in the context of a full network upgrade. If serious network problems are encountered, all validators must stop operating the network immediately. Core Contributors will coordinate through the `#validators`channel of the [ixo Network Discord](https://discord.com/channels/745033220596301995/1001820078695796807) a contingency plan to either replace the upgrade with a new binary that includes code fixes, or abort the upgrade and revert back to the previous release of v0.16.2.
 
 In the event of an issue at upgrade time, we should coordinate via the validators channel in Discord to come to a quick emergency consensus and mitigate any further issues.
 
