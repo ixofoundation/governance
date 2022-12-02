@@ -40,6 +40,16 @@ Although extensive testing and simulations have been performed this upgrade coul
 
 In the event of an issue at upgrade time, we should coordinate via the validators channel in Discord to come to a quick emergency consensus and mitigate any further issues.
 
+## Voting
+
+By voting YES on this proposal, you agree that the  ixo-4 upgrade from v0.16.2 to v0.19.x should proceed.
+
+By voting NO on this proposal, you disagree that the  ixo-4 upgrade from v0.16.2 to v0.19.x should proceed.
+
+By voting NO WITH VETO, you disagree with the ixo-4 upgrade from v0.16.2 to v0.19.x taking place, and additionally wish to see depositors penalized.
+
+By voting ABSTAIN, you decline to give an opinion on the upgrade.
+
 ---
 
 # ixo Chain Upgrade Proposal
