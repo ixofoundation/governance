@@ -1,6 +1,6 @@
 # Mundo Upgrade Governance Proposal
 
-This proposal is to perform a chain upgrade to the ixo-4 from v0.16.2 to v0.19.1 at block height 7029293, which is estimated to occur on **Thursday, December 8th, UTC 14:00.**
+This proposal is to perform a chain upgrade to the ixo-4 from v0.16.2 to v0.19.x at block height 7029293, which is estimated to occur on **Thursday, December 8th, UTC 14:00.**
 Block times have high variance, so please monitor the chain for more precise time estimates.
 
 ## Motivation
@@ -19,7 +19,7 @@ This is a high-level summary of the upgrade:
 
 ## Timing
 
-The upgrade will be scheduled to take place at block ****, which is estimated to be on November 29, 2022 at 14:00 UTC. As block times are highly variable, please keep monitoring the expected timing and check in regularly on the ixo Validators Discord channel as this date approaches.
+The upgrade will be scheduled to take place at block heigh 7029293, which is estimated to be on December 8, 2022 at 14:00 UTC. As block times are highly variable, please keep monitoring the expected timing and check in regularly on the ixo Validators Discord channel as this date approaches.
 
 ## Upgrade Process
 
@@ -38,7 +38,7 @@ Instructions to prepare the v0.19.x binary can be found at [https://github.com/i
 
 Although extensive testing and simulations have been performed this upgrade could experience problems that are introduced by unknown bugs or errors not yet identified, or that appear in the context of a full network upgrade. If serious network problems are encountered, all validators must stop operating the network immediately. Core Contributors will coordinate through the `#validators`channel of the [ixo Network Discord]([https://discord.com/channels/745033220596301995/1001820078695796807](https://discord.com/channels/745033220596301995/1001820078695796807)) a contingency plan to either replace the upgrade with a new binary that includes code fixes, or abort the upgrade and revert back to the previous release of v0.16.2.
 
-In the event of an issue at upgrade time, we should coordinate via the validators channel in discord to come to a quick emergency consensus and mitigate any further issues.
+In the event of an issue at upgrade time, we should coordinate via the validators channel in Discord to come to a quick emergency consensus and mitigate any further issues.
 
 ---
 
