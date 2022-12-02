@@ -1,6 +1,6 @@
 # Mundo Upgrade Governance Proposal
 
-This proposal is to perform a chain upgrade to the ixo-4 from v0.16.2 to v0.19.x at block height 7029293, which is estimated to occur on **Thursday, December 8th, UTC 14:00.**
+This proposal is to perform a chain upgrade to ixo-4 from v0.16.2 to v0.19.x at block height 7029293, which is estimated to occur on **Thursday, December 8th, UTC 14:00.**
 Block times have high variance, so please monitor the chain for more precise time estimates.
 
 ## Motivation
